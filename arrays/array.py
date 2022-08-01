@@ -1,13 +1,12 @@
-stock_prices = [200 , 300 , 340,230 ,320]
+stock_prices = [200 , 300 ,300, 340,230 ,320]
 
-print(f"The price on day1 ={ stock_prices[0]}")
+stock_prices.remove(300) #O(n) removes 1st 300 
+stock_prices.insert(0 , 350)# O(n) inserts at first
+""" 
+both occur at first iterations but,
+since O(n) talks about worst cases
+we say it had to go through the whole array making it O(n)
+"""
+print(stock_prices) 
 
-# to search the day  for price of 300
 
-for i in range(len(stock_prices)):
-    if(stock_prices[i] == 300):
-         day = i+1
-
-
-
-print(f"The day was : {day}")
