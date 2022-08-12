@@ -7,7 +7,7 @@ you need to take from a user using input() function
 
 odd_nums = []
 
-max_number = int(input("Enter a max number greater than 2\n"))
+max_number = int(input("Enter a max number greater than 1\n"))
 
 print(max_number)
 
